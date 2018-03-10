@@ -1,0 +1,37 @@
+{
+  "name": "samplewebproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekseiyurovsky/sampleWebProject.git"
+  },
+  "author": "Aleksejs Jurovskis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alekseiyurovsky/sampleWebProject/issues"
+  },
+  "homepage": "https://github.com/alekseiyurovsky/sampleWebProject#readme",
+  "devDependencies": {
+    "angular": "^1.6.9",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "glob": "^7.1.2",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.7.2",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.7",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
